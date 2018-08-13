@@ -5,7 +5,7 @@
  */
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background: url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -65,16 +65,14 @@ p {
 
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: 100;
 }
 
-.bg-faded {
-  background-color: rgba(255, 255, 255, 0.85);
-}
+
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgb(238,232,170);
   font-family: 'Raleway';
 }
 
@@ -116,14 +114,14 @@ p {
   position: relative;
 }
 
-@media (min-width: 992px) {
+@media {
   .intro .intro-img {
-    width: 75%;
-    float: right;
+    width: 30%;
+
   }
   .intro .intro-text {
     left: 0;
-    width: 60%;
+    width: 70%;
     margin-top: 3rem;
     position: absolute;
   }
@@ -231,9 +229,7 @@ p {
   color: #e6a756 !important;
 }
 
-.bg-primary {
-  background-color: #e6a756 !important;
-}
+
 
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
